@@ -1,0 +1,102 @@
+#navbar {
+	position: relative;
+	margin-top: 10px;
+	margin-right: 10px;
+	top: 2%; 
+	text-align: right;
+}
+
+ul {
+	list-style-type: none;
+	font-size: 15px;
+}
+
+li:hover {
+	text-decoration: underline;
+}
+
+li {
+	display: inline;
+	padding: 5px;
+	color: #666;
+	font-family: Arial, sans-serif;
+}
+
+#logo {
+	-webkit-appearance: none;
+	text-align: center;
+	height: auto;
+	margin-top: 100px;
+	padding-top: 70px;
+}
+
+img {
+	width: 300px;
+}
+
+form {
+	text-align: center;
+	margin-top: 30px;
+
+
+}
+
+form input {
+	-webkit-appearance: none;
+    text-align: start;
+    height: 40px;
+	width: 550px;
+	border-width: 1px;
+	box-shadow: #f2f2f2;
+}
+
+#btn {
+	text-align: center;
+}
+
+button:hover {
+	border: 1px gray solid;
+}
+
+button {
+	display: inline;
+	height: 40px;
+	width: 80px;
+	text-align: center;
+	background-color: #F2f2f2;
+	border: 1px none;
+	font-family: Arial;
+	color: #666;
+	border-radius: 0px;
+	font-size: 15px;
+	margin: 0 20px 0 0;
+}
+
+#right_btn {
+	height: 40px;
+	width: 120px;
+}
+
+#left_btn {
+	height: 40px;
+	width: 140px;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	clear: both;
+	width: 100%;
+	background-color: #F2F2F2;
+}
+
+
+#l_footer {
+	float: left;
+	margin-bottom: 10px;
+}
+
+#r_footer {
+	float: right;
+	margin-right: 50px;
+}
